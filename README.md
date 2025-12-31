@@ -2,7 +2,7 @@
 
 #  Full Stack MERN E-Commerce Application
 
-##  Project Overview
+## Project Overview
 
 This is a **full-stack E-Commerce web application** built using the **MERN stack (MongoDB, Express, React, Node.js)**.
 The application supports **user authentication, product management, order processing, secure payments, image uploads, and admin controls**.
@@ -17,7 +17,7 @@ The project is structured into **three main modules**:
 
 ##  Features
 
-### User Features
+###  User Features
 
 * User registration & login (JWT authentication)
 * Browse products
@@ -44,16 +44,16 @@ The project is structured into **three main modules**:
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
-###  Frontend
+### Frontend
 
 * React.js
 * HTML5, CSS3, JavaScript
 * Axios
 * React Router
 
-###  Backend
+### Backend
 
 * Node.js
 * Express.js
@@ -61,7 +61,7 @@ The project is structured into **three main modules**:
 * Mongoose
 * JWT (JSON Web Tokens)
 
-###  Database
+### Database
 
 * **MongoDB Atlas (Cloud Database)**
 
@@ -77,7 +77,6 @@ The project is structured into **three main modules**:
 ---
 
 ##  Project Structure
-
 ```
 mern-ecommerce/
 │
@@ -94,7 +93,6 @@ mern-ecommerce/
 ##  Environment Variables
 
 Create a `.env` file inside the **backend** folder and add:
-
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
@@ -117,14 +115,12 @@ STRIPE_SECRET_KEY=your_stripe_secret
 ##  How to Run the Project
 
 ###  Clone the Repository
-
 ```bash
 git clone <your-repo-url>
 cd mern-ecommerce
 ```
 
-###  Backend Setup
-
+### Backend Setup
 ```bash
 cd backend
 npm install
@@ -132,7 +128,6 @@ npm start
 ```
 
 ### Frontend Setup
-
 ```bash
 cd frontend
 npm install
@@ -140,7 +135,6 @@ npm start
 ```
 
 ###  Admin Panel Setup
-
 ```bash
 cd admin
 npm install
@@ -149,7 +143,7 @@ npm start
 
 ---
 
-##Functionalities Implemented
+##  Functionalities Implemented
 
 * RESTful APIs
 * CRUD operations
@@ -188,4 +182,3 @@ npm start
 This project is developed for **learning, portfolio, and demonstration purposes**.
 
 ---
-
