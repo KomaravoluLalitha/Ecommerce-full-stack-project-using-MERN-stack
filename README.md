@@ -16,7 +16,7 @@ The project is structured into three main modules:
 
 ##  Features
 
-###  User Features
+### User Features
 
 - User registration and login (JWT authentication)
 - Browse products
@@ -174,7 +174,7 @@ npm start
 
 ---
 
-##  License
+## License
 
 This project is developed for learning, portfolio, and demonstration purposes.
 
